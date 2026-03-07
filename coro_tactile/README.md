@@ -1,42 +1,10 @@
-# coro_tactile_isaacsim
+# CoRo tactile extension
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Isaac Sim Compatibility](#isaac_sim_compatibility)
-- [Installation](#installation)
-  - [Prerequisites](#prerequisites)
-- [Usage](#usage)
-- [Citation](#citation)
-- [Contact](#contact)
-- [More Information](#more-information)
-
-## Overview
+**Tactile synthetic data generation**
 
 The CoRo extension for Isaac Sim provides a custom user interface panel 
 for generating synthetic touch maps. It was developed as a simulation twin 
 for the CoRo capacitive touch sensor.
-
-## Isaac Sim Compatibility
-
-This extension is compatible with:
-
-- NVIDIA Isaac Sim 4.5
-- NVIDIA Isaac Sim 5.0
-- Tested on Linux (Ubuntu 22.04)
-
-## Installation
-
-### Prerequisites
-
-- Python 3.7 or higher
-- [customtkinter](https://pypi.org/project/customtkinter/)for the GUI
-- [Pandas](https://pypi.org/project/pandas/) for data handling
-- [Matplotlib](https://pypi.org/project/matplotlib/) for visualization
-- [h5py](https://pypi.org/project/h5py/) for HDF5 file interaction
-- [pillow](https://pypi.org/project/pillow/) for image processing and manipulation
-
-### Steps
 
 ---
 
@@ -49,9 +17,8 @@ This extension is compatible with:
 - Real-time visualization of synthetic tactile maps. 
 
 ---
-## Usage
 
-### Typical Workflow
+## Typical Workflow
 
 1. Select a primitive in the scene that contains the sensor.
 
@@ -68,8 +35,9 @@ This extension is compatible with:
 
 7. Stop the simulation to end data saving.
 
+---
 
-### Notes
+## Notes
 
 - Although only one base file name is required for file generation, two files are created. 
   The first file name will append  "_deformations" to the base name for the sensor-mesh deformation data. 
@@ -77,7 +45,7 @@ This extension is compatible with:
 
 ---
 
-## Citation
+## References
 
 If you use this extension in your research, please cite the following conference paper:
 
@@ -92,7 +60,6 @@ If you use this extension in your research, please cite the following conference
   publisher={Frontiers Media SA}
 }
 ```
-
 
 For more information about this project, please visit:
 
@@ -120,18 +87,9 @@ For more information about this project, please visit:
 
 ---
 
-## Contact
-For any questions, suggestions, or feedback, please feel free to reach at:
+## Author
 
-
-**Lead Maintainer:**  
-**[Berith De la cruz Sanchez]**  
-**Email:** [berithcruzs@gmail.com](mailto:berithcruzs@gmail.com)  
-**GitHub:** [BerithCS](https://github.com/BerithCS)
-
-
-
-<p>
-<img width="70%" alt="GUI-main" src="Overview.png">
-</p>
+Berith De la cruz Sanchez
+Email: berithcruzs@gmail.com
+GitHub: BerithCS
 
