@@ -1,0 +1,16 @@
+[package]
+name = "coro_tactile"
+version = "0.1.0"
+title = "CoRo Tactile Extension"
+description = "Custom panel showing CoRo tactile sensor data."
+icon = "data/Icon_coro.jpg"
+readme = "README.md"
+preview_image = "data/Overview.png"
+
+[dependencies]
+"omni.usd" = {}
+"omni.ui" = {}
+
+[[python.module]]
+name = "coro_tactile"
+path = "python"
